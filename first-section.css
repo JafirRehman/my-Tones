@@ -1,0 +1,35 @@
+#first-section{
+    background-image: url(assets/hero_image.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+#first-section-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 86vw;
+}
+#first-section-container h1{
+    font-size: 9.6rem;
+    font-weight: bold;    
+}
+#first-section-container h2{
+    font-size: 3.2rem;    
+    font-weight: bold;
+    text-align: center;
+    margin-top: 12px; 
+}
+#first-section-container p{
+    font-size: 1.7rem;
+    text-align: center;  
+    margin-top: 5px;
+    line-height: 22px;  
+}

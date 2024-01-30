@@ -1,0 +1,36 @@
+#fifth-section{   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 17vh;
+}
+#fifth-section-container{
+    display: flex;
+    max-width: 87vw;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+}
+#fifth-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+}
+#fifth-text-container h1{
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+#fifth-text-container p{
+    line-height: 25px;
+    font-size: 1.6rem;
+}
+#fifth-text-container button{
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    color: white;
+    border-style: none;
+    align-self: flex-start;
+    background-color: var(--purple300);
+}

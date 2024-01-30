@@ -1,0 +1,29 @@
+#fourth-section{
+    background-image: url(assets/video.png);    
+    display: flex;
+    color: white;
+    justify-content:center;
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#fourth-section-container{
+    display: flex;
+    max-width: 86vw;
+    padding-top: 235px;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    
+}
+#fourth-section h6{
+    font-size: 2.1rem;
+    text-align: center;
+    font-weight: bold;
+}
+#fourth-section p{
+    text-align: center;
+    line-height: 22px;
+    font-size: 1.7rem;
+}

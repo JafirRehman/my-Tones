@@ -1,0 +1,32 @@
+#third-section{
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10vmin;
+    padding-top: 60vmin;
+}
+#third-section-container{
+    display: flex;
+    gap: 50px;
+    line-height: 25px;
+    max-width: 87vw;
+    flex-direction: column;
+    align-items: center;
+}
+#third-section h5{
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+#third-section p{
+    text-align: center;
+    font-size: 1.6rem;
+}
+#third-section button{
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    color: white;
+    border-style: none;
+    background-color: var(--purple300);
+}
+

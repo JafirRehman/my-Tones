@@ -1,0 +1,41 @@
+#second-section{
+    background-color: var(--purple500);    
+    display: flex;
+    color: white;
+    justify-content:center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+#second-section-container{
+    display: flex;
+    max-width: 87vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+#second-section-container h3{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+#second-section-container p{
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: center;
+}
+#second-section-container h4{
+    font-size: 1.6rem;
+    text-align: center;
+}
+#second-section-container button{
+    background-color: var(--red600);
+    font-size: 1.4rem;
+    color: white;
+    padding: 0.8rem 1.3rem;
+    border-style: none;
+}
+#ipad-iphone-image-container{
+    position:relative;
+    bottom: -350px;
+    margin-top: -350px;
+}

@@ -1,0 +1,99 @@
+@media (max-width:750px) {
+    html {
+        font-size: 9px;
+    }
+
+    #nav-links a {
+        display: none;
+    }
+}
+
+@media (max-width:650px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media (max-width:500px) {
+    html {
+        font-size: 7px;
+    }
+}
+
+@media (max-width:350px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+@media (min-width:750px) {
+    #nav-links i {
+        display: none;
+
+    }
+}
+
+@media (max-width:1024px) {
+    #gift-image-container img {
+        width: 400px;
+    }
+}
+@media (max-width:250px){
+    #ipad-iphone-image-container{
+        bottom: -6vh;
+        margin-top: -6vh;
+
+    }
+}
+@media (max-width:425px) and (min-width:250px) {
+    #ipad-iphone-image-container{
+        bottom: -11vh;
+        margin-top: -11vh;
+
+    }
+}
+@media (min-width:425px) and (max-width:540px) {
+    #ipad-iphone-image-container{
+        bottom: -15vh;
+        margin-top: -15vh;
+    }
+}
+@media (min-width:540px) and (max-width:770px) {
+    #ipad-iphone-image-container{
+        bottom: -18vh;
+        margin-top: -18vh;
+    }
+}
+@media (min-width:770px) and (max-width:1030px){
+    #ipad-iphone-image-container{
+        bottom: -25vh;
+        margin-top: -25vh;
+    }
+}
+@media (max-width:1155px) {
+
+    #ipad-iphone-image-container img,
+    #mac-image-container img {
+        width: 86vw;
+    }
+
+}
+
+@media (max-width:850px) {
+    #fifth-section-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #gift-image-container img {
+        width: 83vw;
+    }
+
+    #fifth-text-container p {
+        line-height: 1.5vh;
+    }
+
+    #fifth-section {
+        padding-top: 7vh;
+    }
+}
